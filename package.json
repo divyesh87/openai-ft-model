@@ -1,0 +1,16 @@
+{
+  "name": "ft-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ft-data": "openai tools fine_tunes.prepare_data -f ./data.jsonl"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}
